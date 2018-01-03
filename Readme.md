@@ -54,14 +54,18 @@ The deck is shuffled and one card per player is turned up plus one.
 For 4 players turn over 5 cards.
 
 ## Cards
-There are two types of cards: Pattern matching cards with victory points and
+There are three types of cards: Pattern matching cards with victory points and
 special cards. Pattern matching cards are low resolution pixel images,
 from 5x5 down to 3x3.  There are 38 such cards.  The special cards are:
  * Almost there.  You can claim the image despite being one pixel off, but the score is one less victory point.  This card can only be played with a victory card.
- * Mirror.  Images can be rotated only, mirror allows a mirrord version to match.  This card can only be played with a victory card.
+ * Mirror.  Images can be rotated only, mirror allows a mirrord version to match.  This card can only be played with a victory card.  Only about a third of the victory cards are assymetric.
  * I changed my mind.  Discard one of your cards and draw from the deck.  This card can only be played with a victory card.
  * Burn in.  When placing pixels, if a pixel is already there, stack another on top.  This card can only be played with a sprite card or in conjuction with placing 2 pixels.
- * Sprites.  Lines, disjoint pixels, things to speed up drawing.
+ * Erase.  When using a sprite card, instead of placing pixels, remove them.
+ The sprite cards allow you to place 3 pixels, or erase 3 pixels with the Erase card.
+ * A 3 pixel straing line.
+ * A 3 pixel diagonal line.
+ * Two pixels and one pixel, separated.
 
 ## Card Management
 If, in a round, no player buys any cards, discard the first and deal a replacement
