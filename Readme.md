@@ -1,4 +1,4 @@
-# Pixel pusher. (C) 2018 Sean Brennan
+# Pixel Pusher. (C) 2018 Sean Brennan
 ##  All rights reserved.
 
 ## Pixel Pusher is a game for two to six players.
